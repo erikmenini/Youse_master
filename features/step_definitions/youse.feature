@@ -18,7 +18,8 @@ Feature: Youse Test
       And I click in to continue
       Then i am in the last page
 
-      Scenario:
+
+    Scenario:Login and Logout at Youse
         Given I Login and Logout
         When I login in my account
         And Login sucessful
